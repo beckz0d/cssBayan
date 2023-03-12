@@ -5,7 +5,7 @@
 
   body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 1.875rem;
     background-color: #fff;
   }
  
@@ -20,12 +20,12 @@
   /* Bayan */
   
   .container {
-    max-width: 800px;
-    margin: 40px auto;
+    max-width: 50rem;
+    margin: 2.5rem auto;
   }
   
   .images {
-    max-width: 800px;
+    max-width: 50rem;
     display: block;
     margin: auto;
   }
@@ -43,7 +43,7 @@
     position: relative;
     cursor: pointer;
     color: rgb(91, 124, 185);
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
     transition: background 0.3s ease-out;
   }
   
@@ -55,7 +55,7 @@
   .bayan-content {
     display: none;
     color: white;
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
   }
   
   i {
@@ -99,7 +99,7 @@
 
   body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     background-color: #fff;
   }
   
