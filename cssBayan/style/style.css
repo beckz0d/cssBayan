@@ -1,0 +1,264 @@
+
+/* Styles for desktops with width greater than 1024px */
+@media screen and (min-width: 1024px) {
+  
+
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.875rem;
+    background-color: #fff;
+  }
+ 
+  html {
+    font-size: calc(15px + 0.390625vw);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Bayan */
+  
+  .container {
+    max-width: 50rem;
+    margin: 2.5rem auto;
+  }
+  
+  .images {
+    max-width: 50rem;
+    display: block;
+    margin: auto;
+  }
+  
+  .bayan-input {
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+  }
+  
+  .bayan-title {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    color: rgb(91, 124, 185);
+    padding: 0.625rem 0.9375rem;
+    transition: background 0.3s ease-out;
+  }
+  
+  .bayan-title:after {
+    content: "";
+    display: block;
+  }
+  
+  .bayan-content {
+    display: none;
+    color: white;
+    padding: 0.625rem 0.9375rem;
+  }
+  
+  i {
+    float: right;
+  }
+  
+  .bayan-title:hover {
+    color: black;
+    filter: brightness(1.2);
+    transition: all 0.3s ease;
+  }
+
+  
+  .bayan-input:checked ~ .bayan-content {
+    display: block;
+    transform: scale(0.98);
+    transition: all 0.9s ease;
+    opacity: 1;
+  }
+  
+  .bayan-input:checked ~ .bayan-title {
+    color: black;
+    filter: brightness(0.9);
+    transform: scale(0.98);
+    transition: all 0.1s ease;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+}
+
+
+
+/* Styles for mobile devices with max width of 480px */
+
+@media screen and (max-width: 480px) {
+
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    background-color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Bayan */
+  
+  .container {
+    max-width: 350px;
+    margin: 10px auto;
+  }
+  
+  .images {
+    max-width: calc(350px + 0.190625vw);
+    display: block;
+    margin: auto;
+  }
+  
+  .bayan-input {
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+  }
+  
+  .bayan-title {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    color: rgb(91, 124, 185);
+    padding: 10px 15px;
+    transition: background 0.3s ease-out;
+  }
+  
+  .bayan-title:after {
+    content: "";
+    display: block;
+  }
+  
+  .bayan-content {
+    display: none;
+    color: white;
+    padding: 10px 15px;
+  }
+  
+  i {
+    float: right;
+  }
+  
+  .bayan-title:hover {
+    color: black;
+    filter: brightness(1.2);
+    transition: all 0.3s ease;
+  }
+  
+  .bayan-input:checked ~ .bayan-content {
+    display: block;
+    transition: all 1s ease;
+  }
+  
+  .bayan-input:checked ~ .bayan-title {
+    color: black;
+    filter: brightness(0.9);
+    transform: scale(0.98);
+    transition: all 0.1s ease;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+}
+  
+  /* Styles for tablets with width between 481px and 1024px */
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Bayan */
+  
+  .container {
+    max-width: 360px;
+    margin: 5px auto;
+  }
+  
+  .images {
+    max-width: calc(350px + 0.190625vw);
+    display: block;
+    margin: auto;
+  }
+  
+  .bayan-input {
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+  }
+  
+  .bayan-title {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    color: rgb(91, 124, 185);
+    padding: 10px 15px;
+    transition: background 0.3s ease-out;
+  }
+  
+  .bayan-title:after {
+    content: "";
+    display: block;
+  }
+  
+  .bayan-content {
+    display: none;
+    color: white;
+    padding: 10px 15px;
+  }
+  
+  i {
+    float: right;
+  }
+  
+  .bayan-title:hover {
+    color: black;
+    filter: brightness(1.2);
+    transition: all 0.3s ease;
+  }
+  
+  .bayan-input:checked ~ .bayan-content {
+    display: block;
+    transition: all 1s ease;
+  }
+  
+  .bayan-input:checked ~ .bayan-title {
+    color: black;
+    filter: brightness(0.9);
+    transform: scale(0.98);
+    transition: all 0.1s ease;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+}
